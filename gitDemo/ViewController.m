@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    
+    _label = [[UILabel alloc] init];
     UIView *view = [[UIView alloc] init];
     /////hsdhvdav
     [self.view addSubview:view];
